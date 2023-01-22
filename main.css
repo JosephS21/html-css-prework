@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: lightgray;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    text-align: center;
+    background-color: lightslategray;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+span{
+    color: black;
+}
+
+.detel p{
+    color: black;
+    line-height: 20px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.celtics{
+    width: 150px;
+    height: 150px;
+}
+
+.mozzy{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    border: 8px solid red;
+}
+
+.bereal{
+    width: 250px;
+    height: 250px;
+}
+
+
+.hero-image{
+    background-image:url(/images/bay2.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.a2{
+    width: 100%;
+    padding-top: 7px;
+    height: 100%;
+    background: green
+}
+
+.a3{
+    width: 100%;
+    padding-top: 7px;
+    height: 100%;
+}
+
+.a1{
+    padding: 7px;
+    padding-top: 10px;
+}
+
+main{
+    padding-left: 2px;
+}
+
+.side{
+    width: 97.9%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    background: url(/images/hunter.gif);
+    border-radius: 10px;
+    color: red;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.a1, .a3{
+    background-color: lightslategray;
+}
+
+form{
+    margin-top: 15px;
+}
+textarea, input{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+footer{
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 2vh;
+}
+
+.zoro{
+    width: 40%;
+    border-radius: 80%;
+}
